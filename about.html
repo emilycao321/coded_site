@@ -1,0 +1,138 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+    <meta charset="UTF-8">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--    fontawsome-->
+    <script src="https://kit.fontawesome.com/5c9f2dfb26.js"></script>
+
+    <!-- Chang the Index to your file name: Home or About-->
+    <meta name="description" content="Who I am">
+    <meta name="keywords" content="about me, introduction">
+    <meta name="author" content="Emily Cao">
+    <title>About</title>
+
+    <!-- Bootstrap Core CSS ––––––––––––––––––––––––––– -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+    <!-- Custom CSS ––––––––––––––––––––––––––– -->
+    <link rel="stylesheet" href="css/style.css">
+
+
+    <!-- Fontawesome ––––––––––––––––––––––––––– -->
+    <script src="https://kit.fontawesome.com/5c9f2dfb26.js"></script>
+    <!-- Favicon––––––––––––––––––––––––––– -->
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico" />
+
+</head>
+
+
+<body id="about" class="bg">
+    <picture>
+        <div class="logo">
+            <img class="img-fluid">
+            <a href="index.html"><img src="img/logo.svg" alt="logo" width="200" height="200" alt="logo"></a>
+        </div>
+    </picture>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-2 d-sm-block d-none">
+                <nav>
+                    <ul class="nav flex-column sidenav-large">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="about.html">About Me</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact.html">Contact Me</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <!-- Mobile slide nav -->
+            <div id="mySidenav" class="sidenav">
+                <a class="closebtn" onclick="closeNav()">
+                    <img src="img/mobile_navarrow2.svg"></a>
+                <a class="nav-link" href="index.html">Home</a>
+                <a class="nav-link" href="portfolio.html">Portfolio</a>
+                <a class="nav-link" href="blog.html">Blog</a>
+                <a class="nav-link active" href="about.html">About Me</a>
+                <a class="nav-link" href="contact.html">Contact Me</a>
+            </div>
+
+            <!-- Use any element to open the sidenav -->
+            <span class="menu d-block d-sm-none" onclick="openNav()">
+                <img src="img/mobile_navarrow1.svg">
+            </span>
+
+            <div class="col-sm-5 col-12 order-2 order-sm-2">
+                <h2><b>About Me</b></h2>
+                <p5 class="bold">I’m a designer, who loves traveling and photography!</p5>
+                <p>I am from New York, NY and I am currently attending the University of Michigan- Ann Arbor with a BFA degree, focusing on UX Design and Interaction Design. When I am not researcing about users interactions with products and designing for a better interaction, I like to travel, take photos, and drink boba! I love food and just a little tip, definitely go to <i>Burger & Lobester</i> (NYC) during Restaurant Week. Great price for the food that you get!</p>
+            </div>
+
+            <div class="col-sm-5 col-12 order-1 order-sm-2">
+                <div class="profile-picture2">
+                    <picture>
+                        <!--    the image defined in the source tag is for large screen-->
+                        <source media="(min-width:480px)" srcset="img/profile_pic.png">
+                        <!--    the image defined in the source tag is for small screen-->
+                        <img class="img-fluid" src="img/mobile_profile.png" alt="profile">
+                    </picture>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="about-vancouver">
+        <div class="container-fluid">
+            <div class="col-lg-9 offset-sm-2 col-12">
+                <picture>
+                    <!--    the image defined in the source tag is for large screen-->
+                    <source media="(min-width:480px)" srcset="img/aboutme/vancouver@2x.png">
+
+                    <!--    the image defined in the source tag is for small screen-->
+                    <img class="img-fluid" src="img/aboutme/mobile_vancouver@2x.png" alt="vancouver">
+                </picture>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid">
+        <div class="col-sm-9 offset-sm-2 col-12">
+            <p> Not to mention, I enjoy cooking because it makes me feel good that I know someone is enjoying the food that I made. Something that takes a while to prepare, but at the end, is worth the effort put into it. I also love jewelry-making, especially earrings because I get to make fashion statements that brings out the creativity in me in the form of an object that can be worn for a long time. </p>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container-fluid">
+            <div class="row justify-content-left align-item-center">
+                <div class="col-sm-5 offset-sm-1">
+                    <p2>Have a question? Comment? Suggestion?<br /></p2>
+                    <p3> © 2020 Emily Cao | <a class="social" href="mailto:emilycao@umich.edu">emilycao@umich.edu</a></p3>
+                </div>
+                <div class="col-sm-3 pt-3 offset-sm-1">
+                    <div class="row justify-content-center">
+                        <a href="contact.html" target="_blank" class="button btn-primary">Contact Me</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        /* Set the width of the side navigation to 250px */
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "200px";
+        }
+        /* Set the width of the side navigation to 0 */
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+    </script>
+
+</body></html>
