@@ -1,0 +1,968 @@
+/*Mobile first*/
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Source+Sans+Pro:wght@400;700;900&display=swap');
+
+.nav_list {
+    font-family: 'Source Sans Pro', sans-serif;
+    list-style-type: none;
+    margin: 0;
+    padding-left: 10px;
+    line-height: calc(18px + 1vw);
+    font-size: calc(16px + 1vw);
+    color: #707070;
+    background-color: transparent;
+}
+
+a {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 8px;
+    color: #707070;
+    cursor: pointer;
+}
+
+html {
+    /*    1rem = 16px*/
+    font-size: 34px;
+}
+
+body {
+    background-color: white;
+    /*    font-family*/
+    font-family: 'Source Sans Pro', serif;
+
+    /*    line-height is 150% of the font size*/
+
+    color: black;
+}
+
+#home body {
+    background: white url(../img/square_mobile@2x.png) right center no-repeat;
+    background-size: cover;
+    background-position: 126vh -30vh;
+}
+
+/*this is a group selection, selecting all the headlines h1-h4 and set a standard style*/
+h1,
+h2,
+h4,
+h5 {
+    color: black;
+    /*    font-family*/
+    font-family: 'Playfair Display', serif;
+    /*    font-weight*/
+    line-height: 1rem;
+    align-content: center;
+}
+
+h3,
+h6 {
+    color: black;
+    /*    font-family*/
+    font-family: 'Source-Sans Pro', sans-serif;
+    /*    font-weight*/
+    align-content: center;
+}
+
+p {
+    color: black;
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height: 15px;
+}
+
+
+p4,
+p6,
+p7,
+p8 {
+    color: black;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+p2,
+p3 {
+    color: black;
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height: 15px;
+}
+
+p5 {
+    color: black;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1 {
+    font-size: 9vw;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    padding-bottom: .1rem;
+    line-height: 1.4rem;
+    padding-top: 1rem;
+}
+
+h2 {
+    font-size: 15vw;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+h4 {
+    font-size: 14vw;
+    text-align: left;
+    align-content: center;
+    padding-bottom: 2vh;
+    line-height: 1.5rem;
+}
+
+h3 {
+    font-size: 18px;
+    padding-top: 2vh;
+    line-height: .8rem;
+}
+
+h5 {
+    padding-top: 1rem;
+    font-size: 18px;
+    line-height: .3rem;
+}
+
+h3 {
+    font-size: 18px;
+    padding-top: 1vh;
+    line-height: .8rem;
+}
+
+p {
+    font-size: 3vw;
+    text-align: left;
+    align-content: center;
+    padding-top: .7vh;
+
+}
+
+#blog p {
+    margin-bottom: .2rem;
+}
+
+#home p {
+    text-align: left;
+}
+
+#about p {
+    text-align: left;
+}
+
+p2 {
+    font-size: 4vw;
+    text-align: center;
+    padding-bottom: 1rem;
+    font-weight: 900;
+}
+
+p3 {
+    font-size: 4.5vw;
+    /*    font-family*/
+    text-align: left;
+    padding-bottom: 1rem;
+}
+
+p4 {
+    font-size: 3vw;
+    text-align: center;
+    line-height: .8rem;
+    padding-bottom: .5rem;
+}
+
+p8 {
+    font-size: 5vw;
+    text-align: left;
+    line-height: .8rem;
+    padding-bottom: 2rem;
+}
+
+p5 {
+    font-size: .4rem;
+    text-align: left;
+    padding-bottom: .2rem;
+}
+
+p6 {
+    font-size: 3vw;
+    text-align: left;
+    align-content: center;
+    padding-top: 0;
+    line-height: .5rem;
+    display: inline-block;
+}
+
+p7 {
+    font-size: 3vw;
+    text-align: left;
+    align-content: center;
+    padding-top: 0;
+    line-height: .5rem;
+    display: inline-block;
+    padding-bottom: 1rem;
+}
+
+h6 {
+    font-size: .5rem;
+    line-height: .7rem;
+    margin-top: .2rem;
+    margin-bottom: .2rem;
+}
+
+
+footer {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1vw;
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+    line-height: 1rem;
+    text-align: center;
+    background-color: #C7E1F7;
+}
+
+/*Set a unique style to a specific tag element*/
+
+
+
+/*Pictures*/
+
+.profile-picture {
+    justify-content: center;
+}
+
+.about-vancouver {
+    padding-bottom: 1rem;
+}
+
+.logo {
+    padding-left: .1rem;
+    background-color: transparent;
+}
+
+/*button style*/
+.button {
+    font-size: 18px;
+    letter-spacing: .1rem;
+    line-height: 2;
+    /*    border-radius*/
+    border-radius: 10px;
+    /*    top:1 right:2 bottom:1 left:2*/
+    padding: 1vh 2vh;
+    /*    the size of button*/
+    background-color: #707070;
+    color: white;
+    border: none;
+    transition: all 0.5s;
+}
+
+.btn {
+    font-size: 18px;
+    letter-spacing: .1rem;
+    line-height: 2;
+    /*    border-radius*/
+    border-radius: 10px;
+    /*    top:1 right:2 bottom:1 left:2*/
+    padding: 1vh 2vh;
+    /*    the size of button*/
+    background-color: #707070;
+    color: white;
+    border: none;
+    transition: all 0.5s;
+    align-content: center;
+}
+
+.btn-primary:hover {
+    color: white;
+    background-color: #707070;
+    opacity: 0.8;
+}
+
+/*solid button style*/
+
+.bold {
+    font-weight: bolder;
+    color: black;
+}
+
+/*portfolio*/
+.portfolio-link img:hover {
+    filter: grayscale(60%);
+}
+
+.portfolio-link img {
+    filter: grayscale(0);
+}
+
+/*modal box*/
+.portfolio-modal .modal-dialog {
+    max-width: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+    height: 100%;
+}
+
+.portfolio-modal .modal-content {
+    min-height: 100%;
+    border: none;
+    border-radius: 0;
+    /*    background-color: */
+    /*    text-align: */
+    /*    font-size: */
+    /*    color:*/
+}
+
+.portfolio-modal .modal-header,
+.portfolio-modal .modal-footer {
+    border: none;
+    font-size: .5rem;
+}
+
+.portfolio-modal {
+    overflow: auto;
+}
+
+.bg {
+    background: white url(../img/square_mobile@2x.png) right center no-repeat;
+    background-size: contain;
+    background-position: 53vw 24vw;
+}
+
+.profile-picture2 {
+    text-align: center;
+}
+
+.sidenav {
+    height: 33vh;
+    width: 0;
+    position: fixed;
+    z-index: 1000;
+    top: 50px;
+    right: 0;
+    background-color: white;
+    overflow-x: hidden;
+    padding-top: 20px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px #707070;
+}
+
+.sidenav a {
+    padding: 9px 10px 6px 45px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #707070;
+    display: block;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 8px;
+    color: #707070;
+    cursor: pointer;
+}
+
+.sidenav a:hover {
+    color: #707070;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+
+a.nav-link {
+    font-size: .6rem;
+    cursor: pointer;
+}
+
+.form-control {
+    font-size: .5rem;
+}
+
+.menu {
+    position: fixed;
+    top: 0;
+    right: 40px;
+    font-size: 36px;
+    margin-left: 50px;
+    padding-top: 8vh;
+    z-index: 999;
+}
+
+.official-bw-insta {
+    font-size: 3vw;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: black;
+}
+
+.social {
+    font-size: 4.5vw;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.spotify-week1 {
+    padding-left: .8rem;
+}
+
+.col-5 {
+    margin-right: 0rem;
+}
+
+.col-3 {
+    margin-left: 0rem;
+}
+
+.lamp-pdf iframe {
+    width: 100%;
+    height: 225px;
+}
+.mowom-pdf iframe {
+    width: 100%;
+    height: 250px;
+}
+
+.rtk-pdf iframe {
+    width: 100%;
+    height: 250px;
+}
+
+.emerge-pdf iframe {
+    width: 100%;
+    height: 225px;
+}
+
+.blog2 {
+    padding-bottom: .8rem;
+}
+
+.blog3 {
+    padding-bottom: .5rem;
+}
+
+.blog4 {
+    padding-bottom: .8rem;
+}
+
+.col-form-label {
+    font-size: .5rem;
+}
+
+.form-group {
+    padding-top: .5rem;
+}
+
+.contact {
+    padding-bottom: 2rem;
+}
+
+a.prev {
+    font-size: .5rem;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 8px;
+    color: #707070;
+    cursor: pointer;
+}
+
+a.next {
+    font-size: .5rem;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 8px;
+    color: #707070;
+    cursor: pointer;
+}
+
+a.back {
+    font-size: .5rem;
+    margin-bottom: .5rem;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 8px;
+    color: #707070;
+    cursor: pointer;
+}
+
+.rtk a:hover {
+    cursor: pointer;
+}
+
+.modal-body {
+    height: 50%;
+}
+
+.active {
+    font-weight: bolder;
+}
+
+.uxdesign {
+    padding-bottom: 2rem;
+}
+
+.carousel-item {
+    padding-bottom: .5rem;
+}
+
+.fa {
+    padding: 3px;
+    font-size: 10px;
+    width: 15px;
+    text-align: center;
+    text-decoration: none;
+    margin: 1px 1px;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-instagram {
+    background: #ea4c89;
+    color: white;
+}
+
+tab {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+li {
+    cursor: pointer;
+}
+
+/*screen that is larger than the web view, Large Screen*/
+
+@media only screen and (min-width:480px) {
+    .bg {
+        background: white url(../img/square_mobile@2x.png) right center no-repeat;
+        background-size: auto;
+        background-position: 75.7vw 0vw;
+    }
+
+
+    h1 {
+        font-size: 4.3vw;
+        text-align: left;
+        align-content: center;
+        justify-content: center;
+        padding-top: 6rem;
+        line-height: 2.75rem;
+    }
+
+    h3 {
+        font-size: 36px;
+        padding-top: 1rem;
+        padding-bottom: .2rem;
+        line-height: 1.5rem;
+    }
+
+    h6 {
+        font-size: 36px;
+        padding-top: 1rem;
+        padding-bottom: .3rem;
+    }
+
+    p {
+        font-size: 3vh;
+        text-align: left;
+        padding-bottom: 1.5rem;
+        line-height: 40px;
+        display: inline-block;
+    }
+
+    #home p {
+        padding-bottom: 40vh;
+    }
+
+
+    p2 {
+        font-size: 2vw;
+        text-align: left;
+        padding-bottom: 3.5vh;
+        font-weight: 900;
+    }
+
+    p3 {
+        font-size: 2vw;
+        text-align: left;
+        padding-bottom: 3.5rem;
+    }
+
+    p4 {
+        font-size: 2vw;
+        text-align: left;
+        line-height: 1.5rem;
+        padding-bottom: 1rem;
+    }
+
+    p8 {
+        font-size: 2vw;
+        text-align: left;
+        line-height: 1.5rem;
+        padding-bottom: 2rem;
+    }
+
+    p5 {
+        font-size: 1rem;
+        text-align: left;
+        padding-bottom: 1rem;
+        display: inline-block;
+    }
+
+    p6 {
+        font-size: 2vw;
+        text-align: left;
+        padding-top: 0;
+        line-height: 1.5rem;
+    }
+
+    p7 {
+        font-size: 2vw;
+        text-align: left;
+        padding-top: 0;
+        line-height: 1.5rem;
+        padding-bottom: 2.5rem;
+    }
+
+
+
+    h4 {
+        font-size: 7vw;
+        padding-top: 4rem;
+    }
+
+    h2 {
+        /*  top:1.414rem right:0  bottom:0.5rem left:0*/
+        font-size: 3.3rem;
+        text-align: left;
+        padding-bottom: 1.5rem;
+        padding-top: 7rem;
+    }
+
+
+    footer {
+        font-size: 1vw;
+        padding-top: 5vh;
+        padding-bottom: 5vh;
+        line-height: 2rem;
+    }
+
+
+    .button {
+        font-size: 2vw;
+        letter-spacing: .1rem;
+        line-height: 1.5;
+        /*    border-radius*/
+        border-radius: 1vh;
+        /*    top:1 right:2 bottom:1 left:2*/
+        padding: 2vh 4vh;
+    }
+
+    .btn {
+        font-size: 2vw;
+        letter-spacing: .1rem;
+        line-height: 1.5;
+        /*    border-radius*/
+        border-radius: 1vh;
+        /*    top:1 right:2 bottom:1 left:2*/
+        padding: 2vh 4vh;
+        align-content: center;
+    }
+
+    .profile-container {
+        text-align: right;
+        position: -10vh -10vh;
+    }
+
+    .about-vancouver {
+        padding-bottom: 2rem;
+    }
+
+    .bold {
+        font-weight: bolder;
+        color: black;
+        font-size: 3vw;
+    }
+
+    .logo {
+        padding-left: 2rem;
+        background-color: transparent;
+        position: fixed;
+    }
+
+
+    .portfolio {
+        padding-left: 12rem;
+    }
+
+    .uxdesign {
+        padding-left: 12rem;
+        padding-bottom: 5rem;
+    }
+
+    .design {
+        padding-left: 12rem;
+    }
+
+    .photography {
+        padding-left: 12rem;
+    }
+
+
+
+    .contact {
+        padding-left: 12rem;
+        font-size: .6rem;
+    }
+
+    .sidenav-large {
+        height: 300px;
+        width: auto;
+        position: fixed;
+        z-index: 1;
+        top: 180px;
+        left: 50px;
+        overflow-x: hidden;
+        padding-top: 10px;
+        line-height: .4;
+        font-size: 36px;
+    }
+
+    a.nav-link {
+        font-size: .8rem;
+        cursor: pointer;
+    }
+
+    .active {
+        font-weight: bolder;
+    }
+
+    .sidenav a {
+        padding: 6px 10px 6px 45px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+        cursor: pointer;
+    }
+
+
+    .sidenav a:hover {
+        color: #454545;
+        font-weight: bolder;
+        cursor: pointer;
+    }
+
+    .form-control {
+        font-size: .8rem;
+    }
+
+
+
+    .webnav {
+        font-size: 2rem;
+    }
+
+    .submit-button {
+        padding-bottom: 4vh;
+    }
+
+
+
+    .profile-picture {
+        justify-content: center;
+        padding-top: 20vh;
+    }
+
+    .profile-picture2 {
+        text-align: center;
+        padding-top: 20vh;
+    }
+
+    .official-bw-insta {
+        font-size: 3vh;
+        font-family: 'Source Sans Pro', sans-serif;
+        color: black;
+    }
+
+    .social {
+        font-size: 2vw;
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+
+    .video {
+        padding-left: 12rem;
+    }
+
+    .spotify-week1 {
+        padding-left: 1.25rem;
+    }
+
+    .lamp-carousel {
+        padding-top: .5rem;
+        padding-bottom: 1rem;
+    }
+
+    .mowom-carousel {
+        padding-top: .5rem;
+        padding-bottom: 1rem;
+    }
+
+    .productdesign {
+        padding-left: 12rem;
+    }
+
+    .blog {
+        padding-left: 12rem;
+    }
+
+
+
+
+    .photography1 {
+        margin-right: 5px;
+    }
+
+
+
+    .blog2 .col-sm-5 {
+        margin-right: .9rem;
+    }
+
+    .col-sm-3 {
+        margin-left: .9rem;
+    }
+
+    .lamp-pdf iframe {
+        width: 100%;
+        height: 18.8rem;
+    }
+
+    .rtk-pdf iframe {
+        width: 100%;
+        height: 850px;
+    }
+
+    .emerge-pdf iframe {
+        width: 100%;
+        height: 560px;
+    }
+
+    .mowom-pdf iframe {
+        width: 100%;
+        height: 25rem;
+    }
+
+    .paintings {
+        padding-left: 12rem;
+    }
+
+    .blog2 {
+        padding-bottom: 3rem;
+    }
+
+    .blog3 {
+        padding-bottom: 8rem;
+    }
+
+    .text-center {
+        text-align: center;
+        padding-bottom: 2rem;
+    }
+
+
+    .blog4 {
+        padding-bottom: 3rem;
+    }
+
+    .contactform {
+        padding-left: 2rem;
+    }
+
+    .col-form-label {
+        font-size: 1rem;
+    }
+
+    /*modal box*/
+    .portfolio-modal .modal-dialog {
+        max-width: 100%;
+        margin-top: 0;
+        margin-bottom: 0;
+        height: 100%;
+    }
+
+    .portfolio-modal .modal-content {
+        min-height: 5;
+        border: none;
+        border-radius: 0;
+        /*    background-color: */
+        /*    text-align: */
+        /*    font-size: */
+        /*    color:*/
+    }
+
+    .portfolio-modal .modal-header,
+    .portfolio-modal .modal-footer {
+        border: none;
+        font-size: 1rem;
+    }
+
+    .portfolio-modal {
+        overflow: auto;
+        max-height: 100%;
+    }
+
+    a.prev {
+        font-size: 1rem;
+        cursor: pointer;
+    }
+
+    a.next {
+        font-size: 1rem;
+        cursor: pointer;
+    }
+
+    a.back {
+        font-size: 1rem;
+        margin-bottom: 1rem;
+        cursor: pointer;
+    }
+
+    h5 {
+        font-size: 6vw;
+        line-height: 12vh;
+    }
+
+    .portfolio-design {
+        padding-left: 12rem;
+    }
+
+    .carousel-item {
+        padding-bottom: 1rem;
+    }
+
+    .fa {
+        padding: 10px;
+        font-size: 20px;
+        width: 40px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 2px;
+        border-radius: 50%;
+    }
+
+    tab {
+        display: inline-block;
+        margin-left: 20px;
+    }
+
+    li {
+        cursor: pointer;
+    }
+
+
+}

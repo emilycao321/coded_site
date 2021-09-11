@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+
+<!-- Basic Page Needs––––––––––––––––––––––––––– -->
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Any questions or inquires, feel free to contact me">
+    <meta name="keywords" content="contact me, questions, comments, inquires">
+    <meta name="author" content="Emily Cao">
+    <title>Contact Me</title>
+
+    <!-- Bootstrap Core CSS ––––––––––––––––––––––––––– -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Custom CSS ––––––––––––––––––––––––––– -->
+    <link href="css/style.css" rel="stylesheet">
+    <!-- fontawesome ––––––––––––––––––––––––––– -->
+    <script src="https://kit.fontawesome.com/5c9f2dfb26.js"></script>
+    <!-- To add google fonts and paste the link here -->
+    <link href="https://fonts.googleapis.com/css?family=Lato|Merriweather:300i,700&display=swap" rel="stylesheet">
+    <!-- Favicon––––––––––––––––––––––––––– -->
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+</head>
+
+<body id="contactpage">
+    <picture>
+        <div class="logo">
+            <img class="img-fluid">
+            <a href="index.html"><img src="img/logo.svg" alt="logo" width="200" height="200" alt="logo"></a>
+        </div>
+    </picture>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-2 d-sm-block d-none">
+                <nav>
+                    <ul class="nav flex-column sidenav-large">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+                        <li class="nav-item"><a class="nav-link" href="about.html">About Me</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="contact.html">Contact Me</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <!-- Mobile slide nav -->
+            <div id="mySidenav" class="sidenav">
+                <a class="closebtn" onclick="closeNav()">
+                    <img src="img/mobile_navarrow2.svg"></a>
+                <a class="nav-link" href="index.html">Home</a>
+                <a class="nav-link" href="portfolio.html">Portfolio</a>
+                <a class="nav-link" href="blog.html">Blog</a>
+                <a class="nav-link" href="about.html">About Me</a>
+                <a class="nav-link active" href="contact.html">Contact Me</a>
+            </div>
+
+            <!-- Use any element to open the sidenav -->
+            <span class="menu d-block d-sm-none" onclick="openNav()">
+                <img src="img/mobile_navarrow1.svg">
+            </span>
+
+            <!--  Main content-->
+            <div class="col-md-10 align-content-center">
+                <h4 class="text-center"><b>Contact Me</b></h4>
+            </div>
+            <div class="contact">
+                <div class="col-sm-11 col-12">
+                    <div class="text-center">
+                        <p8>Have a question or a comment? Hit me up!</p8>
+                    </div>
+                </div>
+                <div class="contactme">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-sm-5 col-12">
+                                <picture>
+                                    <!--    the image defined in the source tag is for large screen-->
+                                    <source media="(min-width:480px)" srcset="img/contactme/contact_img@2x.png">
+
+                                    <!--    the image defined in the source tag is for small screen-->
+                                    <img class="img-fluid" src="img/contactme/mobile_contact_img@2x.png" alt="img">
+                                </picture>
+                            </div>
+                            <div class="col-sm-7 col-12 contactform">
+
+                                <form action="https://formspree.io/f/xeqpapdy" method="POST" class="needs-validation" novalidate>
+                                    <div class="form-group row">
+                                        <label for="inputEmail" class="col-sm-10 col-form-label">Email</label>
+                                        <div class="col-sm-10">
+                                            <input type="email" name="email" class="form-control" id="inputEmail3" placeholder="Email" required>
+                                            <div class="valid-feedback">Valid.</div>
+                                            <div class="invalid-feedback">Please fill out this field.</div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label for="inputMessage" class="col-sm-10 col-form-label">
+                                            Message
+
+                                        </label>
+                                        <div class="col-md-10">
+                                            <textarea class="form-control" name="message" rows="10" cols="50" placeholder="Your message:" required></textarea>
+                                            <div class="valid-feedback">Valid.</div>
+                                            <div class="invalid-feedback">Please fill out this field.</div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row justify-content-center">
+                                        <div class="submit-button col-sm-10 offset-sm-5 col-auto">
+                                            <button type="submit" class="btn btn-primary">Submit</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                    <div class="col-sm-11 col-12">
+                <div class="text-center">
+        <p8>Thank you for viewing my portfolio!</p8>
+        
+            </div>
+        </div>
+    </div>
+
+
+
+    </div>
+    </div>
+
+
+
+
+    <!--    end of main content-->
+    <!--    end of the container-->
+    <!--footer-->
+    <footer>
+        <div class="container-fluid">
+            <div class="row align-item-center">
+                <div class="col-sm-8">
+                    <p2><b>Have a question? Comment? Suggestion?</b><br /></p2>
+                    <p3> © 2020 Emily Cao | <a class="social" href="mailto:emilycao@umich.edu">emilycao@umich.edu</a></p3>
+                </div>
+                <div class="col-md-3 pt-3">
+                    <div class="row justify-content-center">
+                        <a href="contact.html" target="_blank" class="button btn-primary">Contact Me</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!--end of footer-->
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+
+
+
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <script>
+        /* Set the width of the side navigation to 250px */
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "200px";
+        }
+        /* Set the width of the side navigation to 0 */
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+    </script>
+</body></html>

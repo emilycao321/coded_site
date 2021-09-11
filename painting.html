@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+
+<!-- Basic Page Needs––––––––––––––––––––––––––– -->
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Paintings that I have made">
+    <meta name="keywords" content="paintings, watercolor">
+    <meta name="author" content="Emily Cao">
+    <title>Painting</title>
+
+    <!-- Bootstrap Core CSS ––––––––––––––––––––––––––– -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Custom CSS ––––––––––––––––––––––––––– -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Fontawesome ––––––––––––––––––––––––––– -->
+    <script src="https://kit.fontawesome.com/5c9f2dfb26.js"></script>
+    <!-- Favicon––––––––––––––––––––––––––– -->
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+</head>
+
+
+
+<body id="painting">
+    <!-- Start editing your content from the Main content -->
+    <picture>
+        <div class="logo">
+            <img class="img-fluid">
+            <a href="index.html"><img src="img/logo.svg" alt="logo" width="200" height="200" alt="logo"></a>
+        </div>
+    </picture>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-2 d-sm-block d-none">
+                <nav>
+                    <ul class="nav flex-column sidenav-large">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="portfolio.html">Portfolio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+                        <li class="nav-item"><a class="nav-link" href="about.html">About Me</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact.html">Contact Me</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <!-- Mobile slide nav -->
+            <div id="mySidenav" class="sidenav">
+                <a class="closebtn" onclick="closeNav()">
+                    <img src="img/mobile_navarrow2.svg"></a>
+                <a class="nav-link" href="index.html">Home</a>
+                <a class="nav-link active" href="portfolio.html">Portfolio</a>
+                <a class="nav-link" href="blog.html">Blog</a>
+                <a class="nav-link" href="about.html">About Me</a>
+                <a class="nav-link" href="contact.html">Contact Me</a>
+            </div>
+
+            <!-- Use any element to open the sidenav -->
+            <span class="menu d-block d-sm-none" onclick="openNav()">
+                <img src="img/mobile_navarrow1.svg">
+            </span>
+
+            <!--   Main content-->
+            <div class="col-md-10 align-content-center">
+                <h4 class="text-center"><b>Painting</b></h4>
+            </div>
+
+            <div class="paintings">
+                <div class="col-sm-10 col-12">
+                    <p>Aside from all the technical side of my artistic self, my other half, the traditional side, I enjoy watercolor painting. Sometimes it can be frustrating, but it can also be therapeutic.</p>
+                </div>
+
+                <div class="painting1">
+                    <div class="container-fluid">
+                        <div class="col-sm-10 col-12">
+                            <picture>
+                                <!--    the image defined in the source tag is for large screen-->
+                                <source media="(min-width:480px)" srcset="img/painting/painting_1@2x.png">
+
+                                <!--    the image defined in the source tag is for small screen-->
+                                <img class="img-fluid" src="img/painting/mobile_painting_1@2x.png" alt="design">
+                            </picture>
+                            <h3><b>Landscape with the Fall of Icarus Fashion Painting</b></h3>
+                            <p>A piece combining the Peter Bruegel the Elder's <i>Landscape with the Fall of Icarus Fashion Painting</i> painting with fashion.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="painting2">
+                    <div class="container-fluid">
+                        <div class="col-sm-10 col-12">
+                            <picture>
+                                <!--    the image defined in the source tag is for large screen-->
+                                <source media="(min-width:480px)" srcset="img/painting/painting_2@2x.png">
+
+                                <!--    the image defined in the source tag is for small screen-->
+                                <img class="img-fluid" src="img/painting/mobile_painting_2@2x.png" alt="design">
+                            </picture>
+                            <h3><b>我爱你</b></h3>
+                            <p>A painting showing a woman's romanticizing someone.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="painting3">
+                    <div class="container-fluid">
+                        <div class="col-sm-10 col-12">
+                            <picture>
+                                <!--    the image defined in the source tag is for large screen-->
+                                <source media="(min-width:480px)" srcset="img/painting/painting_3@2x.png">
+
+                                <!--    the image defined in the source tag is for small screen-->
+                                <img class="img-fluid" src="img/painting/mobile_painting_3@2x.png" alt="design">
+                            </picture>
+                            <h3><b>American Born Chinese, Animals, Travel, Photographer</b></h3>
+                            <p>Just a biography of me in 6 words :)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--    end of main content-->
+    <!--    end of the container-->
+    <!--footer-->
+    <footer>
+        <div class="container-fluid">
+            <div class="row align-item-center">
+                <div class="col-sm-8">
+                    <p2><b>Have a question? Comment? Suggestion?</b><br /></p2>
+                    <p3> © 2020 Emily Cao | <a class="social" href="mailto:emilycao@umich.edu">emilycao@umich.edu</a></p3>
+                </div>
+                <div class="col-md-3 pt-3">
+                    <div class="row justify-content-center">
+                        <a href="contact.html" target="_blank" class="button btn-primary">Contact Me</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!--end of footer-->
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
+
+    <script>
+        /* Set the width of the side navigation to 250px */
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "200px";
+        }
+        /* Set the width of the side navigation to 0 */
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+    </script>
+
+</body></html>
+

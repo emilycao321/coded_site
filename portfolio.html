@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+
+<!-- Basic Page Needs––––––––––––––––––––––––––– -->
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Portfolio page to showcase my work">
+    <meta name="keywords" content="portfolio, ux design, photography, design, painting, video, product design">
+    <meta name="author" content="Emily Cao">
+    <title>Portfolio</title>
+
+    <!-- Bootstrap Core CSS ––––––––––––––––––––––––––– -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Custom CSS ––––––––––––––––––––––––––– -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Fontawesome ––––––––––––––––––––––––––– -->
+    <script src="https://kit.fontawesome.com/5c9f2dfb26.js"></script>
+    <!-- Favicon––––––––––––––––––––––––––– -->
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+</head>
+
+
+
+<body id="portfolio">
+    <!-- Start editing your content from the Main content -->
+    <picture>
+        <div class="logo">
+            <img class="img-fluid">
+            <a href="index.html"><img src="img/logo.svg" width="200" height="200" alt="logo"></a>
+        </div>
+    </picture>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-2 d-sm-block d-none" class="webnav">
+                <nav>
+                    <ul class="nav flex-column sidenav-large">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="portfolio.html">Portfolio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+                        <li class="nav-item"><a class="nav-link" href="about.html">About Me</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact.html">Contact Me</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <!-- Mobile slide nav -->
+            <div id="mySidenav" class="sidenav">
+                <a class="closebtn" onclick="closeNav()">
+                    <img src="img/mobile_navarrow2.svg"></a>
+                <a class="nav-link" href="index.html">Home</a>
+                <a class="nav-link active" href="portfolio.html">Portfolio</a>
+                <a class="nav-link" href="blog.html">Blog</a>
+                <a class="nav-link" href="about.html">About Me</a>
+                <a class="nav-link" href="contact.html">Contact Me</a>
+            </div>
+
+            <!-- Use any element to open the sidenav -->
+            <span class="menu d-block d-sm-none" onclick="openNav()">
+                <img src="img/mobile_navarrow1.svg">
+            </span>
+            <div class="col-md-10 align-content-center">
+                <h4 class="text-center"><b>Portfolio</b></h4>
+            </div>
+
+            <div class="portfolio-design">
+                <div class="container-fluid">
+                    <div class="col-sm-10 col-12">
+                        <a href="design.html">
+                            <picture>
+                                <!--    the image defined in the source tag is for large screen-->
+                                <source media="(min-width:480px)" srcset="img/portfolio/portfolio_design@2x.png">
+
+                                <!--    the image defined in the source tag is for small screen-->
+                                <img class="img-fluid" src="img/portfolio/mobile_portfolio_design@2x.png" alt="design">
+                            </picture>
+                        </a>
+                        <a href="design.html">
+                            <h3><b>Design</b></h3>
+                        </a>
+                        <p>Design for social media account and own benefit.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio">
+                <div class="portfolio-painting">
+                    <div class="container-fluid">
+                        <div class="col-sm-10 col-12">
+                            <a href="painting.html">
+                                <picture>
+                                    <!--    the image defined in the source tag is for large screen-->
+                                    <source media="(min-width:480px)" srcset="img/portfolio/portfolio_painting@2x.png">
+
+                                    <!--    the image defined in the source tag is for small screen-->
+                                    <img class="img-fluid" src="img/portfolio/mobile_portfolio_painting@2x.png" alt="painting">
+                                </picture>
+                            </a>
+                            <a href="painting.html">
+                                <h3><b>Painting</b></h3>
+                            </a>
+                            <p>My non-technical, traditional artistic half through the use of watercolor painting.</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="portfolio-video">
+                    <div class="container-fluid">
+                        <div class="col-sm-10 col-12">
+                            <a href="video.html">
+                                <picture>
+                                    <!--    the image defined in the source tag is for large screen-->
+                                    <source media="(min-width:480px)" srcset="img/portfolio/portfolio_video@2x.png">
+
+                                    <!--    the image defined in the source tag is for small screen-->
+                                    <img class="img-fluid" src="img/portfolio/mobile_portfolio_video@2x.png" alt="video">
+                                </picture>
+                            </a>
+                            <a href="video.html">
+                                <h3><b>Video</b></h3>
+                            </a>
+                            <p>Having fun with vlogging! :)</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="portfolio-photography">
+                    <div class="container-fluid">
+                        <div class="col-sm-10 col-12">
+                            <a href="photography.html">
+                                <picture>
+                                    <!--    the image defined in the source tag is for large screen-->
+                                    <source media="(min-width:480px)" srcset="img/portfolio/portfolio_photography@2x.png">
+
+                                    <!--    the image defined in the source tag is for small screen-->
+                                    <img class="img-fluid" src="img/portfolio/mobile_portfolio_photography@2x.png" alt="photography">
+                                </picture>
+                            </a>
+                            <a href="photography.html">
+                                <h3><b>Photography</b></h3>
+                            </a>
+                            <p>Capturing the beauty of anything, and just everything.</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="portfolio-uxdesign">
+                    <div class="container-fluid">
+                        <div class="col-sm-10 col-12">
+                            <a href="uxdesign.html">
+                                <picture>
+                                    <!--    the image defined in the source tag is for large screen-->
+                                    <source media="(min-width:480px)" srcset="img/portfolio/portfolio_uxdesign@2x.png">
+
+                                    <!--    the image defined in the source tag is for small screen-->
+                                    <img class="img-fluid" src="img/portfolio/mobile_portfolio_uxdesign@2x.png" alt="ux design">
+                                </picture>
+                            </a>
+                            <a href="uxdesign.html">
+                                <h3><b>UX Design</b></h3>
+                            </a>
+                            <p>Researching and designing to give users a better experience.</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="portfolio-productdesign">
+                    <div class="container-fluid">
+                        <div class="col-sm-10 col-12">
+                            <a href="productdesign.html">
+                                <picture>
+                                    <!--    the image defined in the source tag is for large screen-->
+                                    <source media="(min-width:480px)" srcset="img/portfolio/portfolio_productdesign@2x.png">
+
+                                    <!--    the image defined in the source tag is for small screen-->
+                                    <img class="img-fluid" src="img/portfolio/mobile_portfolio_productdesign@2x.png" alt="product design">
+                                </picture>
+                            </a>
+                            <a href="productdesign.html">
+                                <h3><b>Product Design</b></h3>
+                            </a>
+                            <p>Making products that consumers will use.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--    end of main content-->
+    <!--    end of the container-->
+    <!--footer-->
+    <footer>
+        <div class="container-fluid">
+            <div class="row align-item-center">
+                <div class="col-sm-8">
+                    <p2><b>Have a question? Comment? Suggestion?</b><br /></p2>
+                    <p3> © 2020 Emily Cao | <a class="social" href="mailto:emilycao@umich.edu">emilycao@umich.edu</a></p3>
+                </div>
+                <div class="col-md-3 pt-3">
+                    <div class="row justify-content-center">
+                        <a href="contact.html" target="_blank" class="button btn-primary">Contact Me</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        /* Set the width of the side navigation to 250px */
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "200px";
+        }
+        /* Set the width of the side navigation to 0 */
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+    </script>
+
+    <!--end of footer-->
+</body></html>
