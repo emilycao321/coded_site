@@ -384,7 +384,7 @@ a.nav-link {
     top: 0;
     right: 40px;
     font-size: 36px;
-    margin-left: 50px;
+    margin-left: 30vw;
     padding-top: 8vh;
     z-index: 999;
 }
@@ -690,10 +690,10 @@ li {
     }
 
     .logo {
-        padding-left: 2rem;
+        left: 20px;
         background-color: transparent;
         position: fixed;
-        padding-top: 6vh;
+        padding-top: 10vh;
     }
 
 
@@ -727,7 +727,8 @@ li {
         position: fixed;
         z-index: 1;
         top: 180px;
-        left: 50px;
+        left: 20px;
+        padding-right: 10vw;
         overflow-x: hidden;
         padding-top: 10px;
         line-height: .4;
