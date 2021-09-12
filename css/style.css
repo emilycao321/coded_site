@@ -224,12 +224,6 @@ footer {
     background-color: #C7E1F7;
 }
 
-/*Set a unique style to a specific tag element*/
-
-
-
-/*Pictures*/
-
 .profile-picture {
     justify-content: center;
 }
@@ -534,6 +528,11 @@ li {
     cursor: pointer;
 }
 
+.portfolio-design {
+    padding-left: 0rem;
+}
+
+
 /*screen that is larger than the web view, Large Screen*/
 
 @media only screen and (min-width:480px) {
@@ -641,6 +640,8 @@ li {
         text-align: left;
         padding-bottom: 1.5rem;
         padding-top: 7rem;
+        line-height: normal;
+        text-align: center;
     }
 
 
