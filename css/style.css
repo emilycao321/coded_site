@@ -563,6 +563,7 @@ li {
         font-size: 36px;
         padding-top: 1rem;
         padding-bottom: .3rem;
+        line-height: 1rem;
     }
 
     p {
