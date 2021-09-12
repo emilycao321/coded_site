@@ -566,10 +566,10 @@ li {
     }
 
     p {
-        font-size: 3vh;
+        font-size: 2.5vh;
         text-align: left;
         padding-bottom: 1.5rem;
-        line-height: 40px;
+        line-height: 4vh;
         display: inline-block;
     }
 
